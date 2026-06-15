@@ -23,7 +23,7 @@ module.exports = {
     const level = config.wasdKeyLevel || 2;
 
     try {
-      const url = `https://keyauth.win/api/seller/?sellerkey=${config.sellerKey}&type=add&expiry=${expiryDays}&mask=******-******-******-******-******-******&level=${level}&amount=1&format=text`;
+      const url = `https://keyauth.win/api/seller/?sellerkey=${config.sellerKey}&type=add&expiry=${expiryDays}&mask=WASD-******-******-******-******&level=${level}&amount=1&format=text`;
       const response = await axios.get(url);
       const generatedKey = response.data.trim();
 
