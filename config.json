@@ -1,0 +1,8 @@
+{
+  "botToken": "DEIN_BOT_TOKEN_HIER",
+  "sellerKey": "DEIN_SELLER_KEY_HIER",
+  "customerRoleId": "DEIN_CUSTOMER_ROLE_ID_HIER",
+  "supportRoleId": "DEIN_SUPPORT_ROLE_ID_HIER",
+  "tweakerKeyLevel": 1,
+  "wasdKeyLevel": 2
+}
